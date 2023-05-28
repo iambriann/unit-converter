@@ -19,4 +19,5 @@ function convert() {
 }
 
 convertBtn.addEventListener("click", convert)
+window.convert = convert
 
