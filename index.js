@@ -17,7 +17,7 @@ function convert() {
 
     massEl.innerText = `${inputEl.value} kilos = ${(inputEl.value * 2.204).toFixed(3)} pounds | ${inputEl.value} pounds = ${(inputEl.value / 2.204).toFixed(3)} kilos`   
 }
-
-convertBtn.addEventListener("click", convert)
 window.convert = convert
+convertBtn.addEventListener("click", convert)
+
 
